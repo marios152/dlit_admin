@@ -32,8 +32,9 @@ $capabilities = array(
         'contextlevel' => CONTEXT_SYSTEM,
         'archetypes' => array(
             'manager' => CAP_ALLOW
-			'student' => CAP_PREVENT
-			'teacher' => CAP_PREVENT
+	    'student' => CAP_PREVENT
+	    'teacher' => CAP_PREVENT
+	    'editingteacher' =>CAP_PREVENT		
         ),
     ),
 );
